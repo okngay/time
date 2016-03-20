@@ -22,7 +22,7 @@ function notifyMe() {
     Notification.requestPermission();
   else {
     var notification = new Notification('Đã hết thời gian bạn đặt !', {
-      icon: 'http://cdn.sstatic.net/stackexchange/img/logos/so/so-icon.png',
+      icon: 'http://thelevelapp.com/wp-content/uploads/2013/01/alarm_icon-300x300.png',
       body: "Bạn ghi chú: " +$("#icon_prefix2").val() + " .",
     });
 
