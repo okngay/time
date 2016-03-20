@@ -93,12 +93,12 @@ function notifyMe() {
             $("#bar").attr("style", "width:" + (parseInt((bar/sumtime) * 100)) + "%");
 			//console.log(parseInt((bar/sumtime)*100)+"%");
 
-            if (hetgio < 0) {
+            if (hetgio == 0 && giay==1) {
                 notifyMe();
 				$("#timeShow").hide();
-				
 				$('#timetitle').text("Hết giờ rồi nhé ==! "), history.go(0), alert(" ******************- THÔNG BÁO -********************* \n Đã hết giờ rồi :) \n +Bạn đã ghi chú: \n "+ $("#icon_prefix2").val() +" \n \n Hãy nhìn xung quanh và mát-xa cho mắt nhé ♥   \n \n******************- HÃY BẢO VỆ MẮT! -***************** \n (Khi bạn nhấn 'Ok' trang sẽ tải lại) .");
             }
+			
         } //timercontrol    
     } //Timer
 
