@@ -93,7 +93,7 @@ function notifyMe() {
             $("#bar").attr("style", "width:" + (parseInt((bar/sumtime) * 100)) + "%");
 			//console.log(parseInt((bar/sumtime)*100)+"%");
 
-            if (hetgio == 0) {
+            if (hetgio < 0) {
                 notifyMe();
 				$("#timeShow").hide();
 				
