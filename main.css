@@ -1,9 +1,40 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background-color:#2ABB9B;
+	
 	font-family:Arial, Helvetica, sans-serif;
+	
+background: linear-gradient(270deg, #2b63d5, #554cd4, #0bcc67, #e6641a, #8b1ae6, #1a78e6);
+background-size: 1200% 1200%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+
 	}
+	
+
+ @-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+
+
+}          
+	
+	
+	
+	
 #mainStage{
 	background-color:#fff;
 	width:800px;
